@@ -1,0 +1,208 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #efb2f7; /* Un tono suave de fondo */
+    overflow-y: auto; /* Agregar desplazamiento vertical cuando sea necesario */
+}
+
+/* Estilo para el header */
+header {
+    background-color: #9c27b0; /* Morado */
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Aumenta la intensidad de la sombra */
+}
+
+/* Estilo para el título dentro del header */
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #ffffff;
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    letter-spacing: 2px; /* Añade espaciado entre letras */
+}
+
+/* Estilo para el subtítulo dentro del header */
+header p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #eee;
+}
+
+/* Estilo para el contenedor del header */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para el título y subtítulo del header */
+.header-text {
+    margin-top: 10px;
+}
+
+main {
+    background-color: #e4cfe9;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el contenedor de la imagen */
+.image-container {
+    text-align: center;
+}
+
+/* Estilo para la imagen después del header */
+.love-image {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #9c27b0; /* Morado */
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto de escala al pasar el cursor */
+.love-image:hover {
+    transform: scale(1.08);
+}
+
+#mensaje-aniversario {
+    text-align: justify;
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo para los botones de opción */
+button.option {
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 20px;
+    border: none;
+    background-color: #9c27b0; /* Morado */
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Estilo para el título de la galería */
+.gallery-title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    color: #9c27b0; /* Morado */
+}
+
+/* Estilo para las imágenes en la galería */
+.gallery-images img {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    border: 3px solid #9c27b0; /* Morado */
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto de escala al pasar el cursor */
+.gallery-images img:hover {
+    transform: scale(1.08);
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #9c27b0; /* Morado */
+    padding: 3px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-container {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px 0; /* Reduce el espacio en el encabezado */
+    }
+
+    header h1 {
+        font-size: 28px; /* Reduce el tamaño del título del encabezado */
+    }
+
+    header p {
+        font-size: 16px; /* Reduce el tamaño del subtítulo del encabezado */
+    }
+
+    .love-image {
+        width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        margin: 0; /* Elimina el margen para que la imagen se ajuste mejor */
+    }
+
+    #mensaje-aniversario {
+        font-size: 14px; /* Reduce el tamaño del mensaje de aniversario */
+        padding: 10px; /* Reduce el espacio interno del mensaje */
+    }
+
+    button.option {
+        font-size: 18px; /* Reduce el tamaño de fuente de los botones de opción */
+        padding: 10px 20px; /* Ajusta el relleno de los botones de opción */
+    }
+
+    .gallery-images img {
+        width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+        margin: 10px 0; /* Ajusta el margen superior e inferior de las imágenes */
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media (min-width: 769px) {
+    header {
+        padding: 30px 0;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 20px;
+    }
+
+    .love-image {
+        width: 30%;
+    }
+
+    #mensaje-aniversario {
+        font-size: 16px;
+    }
+
+    button.option {
+        font-size: 20px;
+    }
+
+    .gallery-images img {
+        width: 300px;
+        margin: 20px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+

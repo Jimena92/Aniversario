@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Años de Amor - Juego de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>¡Feliz 4to aniversario!</h1>
+            <p>Un pequeño detalle para el amor de mi vida.</p>
+        </div>
+    </header>
+    <div id="mensaje-aniversario">
+        <h2 class="gallery-title">Ale:</h2>
+        <p>
+            En estos cuatro años, hemos tejido un universo de emociones, un tapiz de complicidades, como si nuestras almas se hubieran entrelazado en una danza eterna. En ti, encuentro el reflejo de mis sueños y la razón de mis suspiros. Como alguna vez dijo Rosario Castellanos, me encuentro a veces atrapada en la dicotomía entre el deseo y la realidad, entre las palabras y el silencio. Pero en ti, mi amor, encuentro la respuesta a ese dilema. Eres la metáfora perfecta que da sentido a mis letras, la voz que da vida a mis pensamientos más profundos. Sigamos construyendo nuestra historia, llena de palabras y silencios que solo nosotras comprendemos. 
+        </p>
+    </div>
+    <main>
+        <div class="image-container">
+            <img src="media/nosotras.jpeg" alt="Nosotras" class="love-image">
+        </div>
+        <div id="question-container">
+            <h2>¡Va el test!</h2>
+            <p id="question">¿En dónde nos conocimos?</p>
+        </div>
+        <div id="options-container">
+            <button class="option" onclick="checkAnswer('A')">A) En Instagram</button>
+            <button class="option" onclick="checkAnswer('B')">B) En un parque</button>
+            <button class="option" onclick="checkAnswer('C')">C) En Saturno</button>
+        </div>
+        <div id="feedback-container">
+            <p id="feedback"></p>
+        </div>
+        <div id="restart-container" style="display: none;">
+            <button class="restart-button" onclick="restartGame()">Volver a Empezar</button>
+        </div>
+    </main>
+    <!-- Galería de imágenes después del juego -->
+    <section class="image-gallery">
+        <h2 class="gallery-title">Nuestros bebés</h2>
+        <p>Hemos sido una gran familia durante todo este tiempo.</p> 
+        <div class="gallery-images">
+            <img src="media/pinky.jpg" alt="Pinky">
+            <img src="media/chipi.jpg" alt="Chipi">
+            <img src="media/figs.jpg" alt="Figs">
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2023 Duraznito, Lola, Pelona Peloneta y Mango chupado. Todos los derechos reservados.</p>
+    </div>
+</footer>
+</html>
