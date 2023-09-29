@@ -128,7 +128,7 @@ function endGame() {
     // Agregar un botón para volver a empezar solo al final del juego
     if (currentQuestionIndex === questions.length) {
         const restartButton = document.createElement("button");
-        restartButton.textContent = "Volver a Empezar";
+        restartButton.textContent = "¡Volver a jugar!";
         restartButton.className = "restart-button";
         restartButton.onclick = restartGame;
         optionsContainer.appendChild(restartButton);

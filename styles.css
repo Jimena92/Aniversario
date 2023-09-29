@@ -93,6 +93,23 @@ button.option {
     cursor: pointer;
 }
 
+/* Estilo para el botón "Volver a Jugar" */
+.restart-button {
+    background-color: #9c27b0; /* Morado */
+    color: #fff; /* Color del texto */
+    padding: 12px 24px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente */
+    border: none; /* Borde sin estilo */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición de color de fondo */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.restart-button:hover {
+    background-color: #7b1fa2; /* Cambiar el color de fondo al pasar el mouse */
+}
+
 /* Estilo para el título de la galería */
 .gallery-title {
     text-align: center;
@@ -158,6 +175,12 @@ footer {
     button.option {
         font-size: 18px; /* Reduce el tamaño de fuente de los botones de opción */
         padding: 10px 20px; /* Ajusta el relleno de los botones de opción */
+    }
+
+    .restart-button {
+        font-size: 18px; /* Reduce el tamaño de fuente en pantallas pequeñas */
+        padding: 10px 20px; /* Ajusta el espaciado interno en pantallas pequeñas */
+        margin-top: 10px; /* Espacio superior en pantallas pequeñas */
     }
 
     .gallery-images img {
